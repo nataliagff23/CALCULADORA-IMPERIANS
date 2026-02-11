@@ -83,7 +83,7 @@ function CalculadoraDealers() {
 
   return (
     <div>
-      <h2 className="text-2xl font-bold text-blue-900 mb-6">Calculadora de Rentabilidad para Dealers</h2>
+      <h2 className="text-2xl font-bold text-blue-900 mb-6">Calculadora de Rentabilidad</h2>
 
       {errors.length > 0 && (
         <div className="bg-red-50 border-2 border-red-300 rounded-lg p-4 mb-6">
