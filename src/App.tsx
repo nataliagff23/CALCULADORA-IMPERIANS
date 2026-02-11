@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { Calculator } from 'lucide-react';
 import CalculadoraDealers from './components/CalculadoraDealers';
 import CalculadoraCrecimiento from './components/CalculadoraCrecimiento';
 import CalculadoraVentas from './components/CalculadoraVentas';
@@ -19,8 +18,8 @@ function App() {
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100 py-8 px-4">
       <div className="max-w-6xl mx-auto">
         <div className="bg-gradient-to-r from-blue-900 to-blue-800 text-white rounded-t-2xl py-6 px-8 shadow-lg">
-          <div className="flex items-center justify-center gap-3">
-            <Calculator size={32} />
+          <div className="flex items-center justify-center gap-4">
+            <img src="/logo-imperians.png" alt="Imperians" className="h-12 w-12 rounded-lg object-contain" />
             <h1 className="text-3xl font-bold tracking-wide">CALCULADORAS DE RENTABILIDAD</h1>
           </div>
         </div>
